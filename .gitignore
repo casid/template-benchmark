@@ -8,3 +8,5 @@ jte-classes/
 *.war
 *.ear
 .project
+.idea
+jte-classes/
