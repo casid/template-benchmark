@@ -94,7 +94,12 @@ public class ExpectedOutputTest {
         qute.setup();
         assertOutput(qute.benchmark());
     }
-
+	@Test
+	public void testBeetlOutput() throws Exception {
+		Beetl beetl = new Beetl();
+		beetl.setup();
+		assertOutput(beetl.benchmark());
+	}
     private void assertOutput(final String output) throws IOException {
         assertEquals(readExpectedOutputResource(), output.replaceAll("\\s", ""));
     }

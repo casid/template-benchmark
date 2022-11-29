@@ -25,6 +25,7 @@
 		<rocker.version>1.3.0</rocker.version>
 		<jte.version>2.2.2</jte.version>
 		<qute.version>2.10.0.Final</qute.version>
+        <beetl.version>3.12.0.RELEASE</beetl.version>
 	</properties>
 
 	<licenses>
@@ -195,6 +196,12 @@
 			<artifactId>qute-core</artifactId>
 			<version>${qute.version}</version>
 		</dependency>
+
+        <dependency>
+            <groupId>com.ibeetl</groupId>
+            <artifactId>beetl-antlr4.5-support</artifactId>
+            <version>${beetl.version}</version>
+        </dependency>
 
 		<dependency>
 			<groupId>junit</groupId>

@@ -2,8 +2,8 @@ template-benchmark
 ================
 
 JMH benchmark for popular Java template engines:
-
-* [Freemarker](http://freemarker.org/)
+* [Beetl](http://freemarker.org/)
+* [Freemarker](http://freemarker.org/)z
 * [jte](https://github.com/casid/jte)
 * [Mustache](https://github.com/spullara/mustache.java)
 * [Pebble](http://www.mitchellbosecke.com/pebble)
