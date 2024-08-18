@@ -59,7 +59,7 @@ thead {
 				<td><a href="/stocks/{item.symbol}">{item.symbol}</a></td>
 				<td><a href="{item.url}">{item.name}</a></td>
 				<td><strong>{item.price}</strong></td>
-				{#if item.change < 0}
+				{#if item.change < 0d}
 				<td class="minus">{item.change}</td>
                 <td class="minus">{item.ratio}</td>
                 {#else}

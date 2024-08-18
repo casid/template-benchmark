@@ -47,4 +47,14 @@ public class Qute extends BaseBenchmark {
             return new String(is.readAllBytes(), StandardCharsets.UTF_8);
         }
     }
+
+    public static void main(String[] args) {
+        Qute qute = new Qute();
+        try {
+            qute.setup();
+            System.out.println(qute.benchmark());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 }
